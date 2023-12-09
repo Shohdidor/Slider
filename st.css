@@ -1,0 +1,50 @@
+*{
+    margin: 0;
+}
+
+.container {
+    background-image: url(/img/Fon.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+}
+h1{
+    padding-top: 1%;
+    background-color: rgba(0, 0, 0, 0.651);
+    height: 7vh;
+    text-align: center;
+    color: white;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+
+}
+
+.slider{
+    width: 150px;
+    height: 150px;
+    border: 2px solid white;
+    border-radius: 150%;
+    margin: 30px auto;
+    overflow: hidden;
+}
+
+
+.slider-line {
+    height:  256px ;
+    width:  1024px;
+    position: relative;
+    left: 0;
+    transition: 0.2s;
+}
+.slider2{
+    height: 88px;
+    margin: 30px auto;
+    overflow-y: hidden;
+    padding-bottom: 1%;
+}
+.slider-text {
+    position: relative;
+    width: 100%;
+    transition: 0.2s;
+}   
